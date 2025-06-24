@@ -6,9 +6,9 @@
 
 ## Información del Alumno
 
-**Nombre y Apellido:** [Escribir aquí tu nombre y apellido]
+**Nombre y Apellido:** Agustín Marthi
 
-**Curso:** [Escribir aquí tu curso]
+**Curso:** 4 I
 
 **Fecha de entrega:** [Escribir aquí la fecha de entrega]
 
