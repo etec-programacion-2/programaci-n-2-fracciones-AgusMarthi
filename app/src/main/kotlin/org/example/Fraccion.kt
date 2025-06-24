@@ -22,4 +22,5 @@ class Fraccion(private var _numerador : Int,private var _denominador: Int) {
     fun mostrar(){
         println(this.toString())
     }
+    
     }
