@@ -12,3 +12,27 @@ plugins {
 
 rootProject.name = "2025-fractions"
 include("app")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
