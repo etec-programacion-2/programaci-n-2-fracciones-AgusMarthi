@@ -48,6 +48,22 @@ class Fraccion(private var _numerador : Int,private var _denominador: Int) {
         return Fraccion(resnumerador, resdenominador).simplificar() // Se simplifica automáticamente en init
     }
 
+    operator fun times(otra: Fraccion): Fraccion{
+        val mulnumerador: Int = this._numerador * otra._numerador
+        val muldenominador: Int = otra._denominador * this._denominador
+        return Fraccion(mulnumerador, muldenominador).simplificar()
+    }
+
+    operator fun div(otra: Fraccion): Fraccion{
+        val divnumerador: Int = this._numerador * otra._denominador
+        val divdenominador: Int = this._denominador * otra._numerador
+        return (if (divdenominador != 0){
+            Fraccion(divnumerador, divdenominador).simplificar()
+        } else {
+            println("el denominador no puede ser cero")
+        }) as Fraccion
+    }
+
     fun mostrar(){
         println(this.toString())
     }
